@@ -1,0 +1,82 @@
+[
+  {
+    "name": "product_sales_value",
+    "path": "SQL/product_sales_value.sql",
+    "description": "Show total sales value and won deal counts grouped by product."
+  },
+  {
+    "name": "product_price_range",
+    "path": "SQL/product_price_range.sql",
+    "description": "Show minimum, maximum, and average closed-won deal values for each product."
+  },
+  {
+    "name": "products",
+    "path": "SQL/products.sql",
+    "description": "List all products with their series and list prices."
+  },
+  {
+    "name": "product_prices",
+    "path": "SQL/product_prices.sql",
+    "description": "Show product names with series and sales prices."
+  },
+  {
+    "name": "sales_team_stats",
+    "path": "SQL/sales_team_stats.sql",
+    "description": "Summarize sales teams by counting agents per manager and regional office."
+  },
+  {
+    "name": "sales_team_assignments",
+    "path": "SQL/sales_team_assignments.sql",
+    "description": "List sales agents with their managers, IDs, and regional offices."
+  },
+  {
+    "name": "sales_managers_by_region",
+    "path": "SQL/sales_managers_by_region.sql",
+    "description": "List sales managers assigned to a specified regional office."
+  },
+  {
+    "name": "sales_managers",
+    "path": "SQL/sales_managers.sql",
+    "description": "Show all sales agents with their managers and regional offices."
+  },
+  {
+    "name": "sales_pipeline_in-progress",
+    "path": "SQL/sales_pipeline_in-progress.sql",
+    "description": "List all active sales opportunities with stages and expected close dates."
+  },
+  {
+    "name": "lost_deals_last_year",
+    "path": "SQL/lost_deals_last_year.sql",
+    "description": "Show deals lost last year with stages, values, and close dates."
+  },
+  {
+    "name": "big_deals_won",
+    "path": "SQL/big_deals_won.sql",
+    "description": "List won deals above 5000 in value sorted by deal size."
+  },
+  {
+    "name": "revenue_for_Q4",
+    "path": "SQL/revenue_for_Q4sql.sql",
+    "description": "Show total revenue and won deal counts for fourth-quarter sales."
+  },
+  {
+    "name": "revenue_for_Q3",
+    "path": "SQL/revenue_for_Q3.sql",
+    "description": "Show total revenue and won deal counts for third-quarter sales."
+  },
+  {
+    "name": "revenue_for_Q1",
+    "path": "SQL/revenue_for_Q1.sql",
+    "description": "Show total revenue and won deal counts for first-quarter sales."
+  },
+  {
+    "name": "sales_last_month",
+    "path": "SQL/sales_last_month.sql",
+    "description": "Show total revenue and won deal counts from the past month."
+  },
+  {
+    "name": "revenue_for_Q2",
+    "path": "SQL/revenue_for_Q2.sql",
+    "description": "Show total revenue and won deal counts for second-quarter sales."
+  }
+]
