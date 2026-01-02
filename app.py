@@ -6,9 +6,9 @@ import os
 st.title("🦆 SQL-First RAG Chatbot - AmerEquity Demo")
 
 # Connect to DuckDB
-@st.cache_data
+@st.cache_datasets
 def get_connection():
-    return duckdb.connect("data/ae_sales.duckdb")
+    return duckdb.connect("datasets/ae_sales.duckdb")
 
 con = get_connection()
 
